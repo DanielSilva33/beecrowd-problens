@@ -19,6 +19,7 @@ $ git clone https://github.com/DanielSilva33/uri-online-judge.git
 **Follow the steps below**
 
 -> First place the entry in the stdin file;
+
 -> Then run the script with the node.
 
 ---
