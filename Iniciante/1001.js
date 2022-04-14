@@ -6,6 +6,6 @@ var B = parseInt(lines.shift()); //aqui ele pega o segundo numero do input e jog
 
 //Fazendo o calculo pedido no exercicio
 
-var X = A + B;
+var soma = A + B;
 
-console.log("X = " + X);
+console.log("X = " + soma);
