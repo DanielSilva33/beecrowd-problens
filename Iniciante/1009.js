@@ -7,8 +7,11 @@ let bonus = parseFloat(lines.shift());
 
 const calculo =  (bonus * 15) / 100;
 
-const salaryFinal = calculo + salary;
+const salaryFinal = (calculo, salary) => {
+    return calculo + salary
+    
+}
 
-console.log("TOTAL = R$ " + salaryFinal.toFixed(2));
+console.log("TOTAL = R$ ", salaryFinal(calculo, salary).toFixed(2));
 
 
