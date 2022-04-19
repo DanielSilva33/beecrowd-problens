@@ -1,8 +1,12 @@
-# uri-online-judge
+<h1 align="center">
+  beecrowd
+</h1>
 
-In this repository we will solve programming problems using the Uri online judge platform,
-we intend to practice our problem solving logic.
+## 🚀 Objective
 
+Neste repositório irei resolver problemas de programação usando a plataforma Beecrowd, o objetivo é resolver um problema por dia, para sempre martermos nossa base na programação atualizada. Espero que esse conteúdo possa ajudar outras pessoas que tenham o mesmo objetivo.
+
+In this repository I will solve programming problems using the Beecrowd platform, the goal is to solve one problem a day, so that we always maintain our base in updated programming. I hope this content can help other people who have the same goal.
 
 ## 💻 Getting started
 
@@ -13,15 +17,17 @@ we intend to practice our problem solving logic.
 **Clone the project**
 
 ```bash
-$ git clone https://github.com/DanielSilva33/uri-online-judge.git
+$ git clone https://github.com/DanielSilva33/beecrowd-problens.git
 ```
 
 **Follow the steps below**
 
--> First place the entry in the stdin file;
+- First place the entry in the stdin file;
 
--> Then run the script with the node.
+- Then run the script with the node.
 
 ---
 
-Made by Daniel Silva 👋 [Check out my LinkedIn](https://www.linkedin.com/in/daniel-silva-1a3209196/)
+<p align="center">
+  Made with 💜&nbsp; by <a href="https://www.linkedin.com/in/daniel-silva-1a3209196/">Daniel Silva</a>
+</p>
