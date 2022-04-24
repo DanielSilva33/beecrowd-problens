@@ -1,8 +1,8 @@
 const input = require('fs').readFileSync('stdin', 'utf8');
 const lines = input.split('\n');
 
-let dist = parseInt(lines.shift());
+let km = parseInt(lines.shift());
 
-const calc = (60 * dist) / 30;
+const minutes = (60 * km) / 30;
 
-console.log(`${calc} minutos`);
+console.log(`${minutes} minutos`);
