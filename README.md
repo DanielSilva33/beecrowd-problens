@@ -4,7 +4,7 @@
 
 ## 🚀 Objective
 
-Neste repositório irei resolver problemas de programação usando a plataforma Beecrowd, o objetivo é resolver um problema por dia, para sempre martermos nossa base na programação atualizada. Espero que esse conteúdo possa ajudar outras pessoas que tenham o mesmo objetivo.
+Neste repositório irei resolver problemas de programação usando a plataforma Beecrowd, o objetivo é resolver um problema por dia, para sempre mantemos nossa base na programação atualizada. Espero que esse conteúdo possa ajudar outras pessoas que tenham o mesmo objetivo.
 
 In this repository I will solve programming problems using the Beecrowd platform, the goal is to solve one problem a day, so that we always maintain our base in updated programming. I hope this content can help other people who have the same goal.
 
