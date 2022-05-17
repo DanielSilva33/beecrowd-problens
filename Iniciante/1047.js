@@ -11,11 +11,11 @@ let minuteFinal = parseInt(line[3]);
 let totalHours = hoursFinal - hoursInitial;
 let totalMinute = minuteFinal - minuteInitial;
 
-if (totalHours < 0) {
+if (totalHours <= 0) {
   totalHours = 24 + (hoursFinal - hoursInitial);
 }
 
-if (totalMinute < 0) {
+if (totalMinute <= 0) {
   totalMinute = 60 + (minuteFinal - minuteInitial);
   totalHours--;
 }
