@@ -8,20 +8,30 @@ let minuteInitial = parseInt(line[1]);
 let hoursFinal = parseInt(line[2]);
 let minuteFinal = parseInt(line[3]);
 
-let totalHours = hoursFinal - hoursInitial;
-let totalMinute = minuteFinal - minuteInitial;
+let minutes = 0;
+let hours = 0;
 
-if (totalHours <= 0) {
-  totalHours = 24 + (hoursFinal - hoursInitial);
-}
-
-if (totalMinute <= 0) {
-  totalMinute = 60 + (minuteFinal - minuteInitial);
-  totalHours--;
-}
-
-if (hoursInitial === hoursFinal && minuteInitial === minuteFinal) {
+if (
+  hoursInitial == hoursFinal &&
+  minuteInitial == minuteFinal &&
+  hoursInitial == minuteFinal
+) {
   console.log("O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)");
 } else {
-  console.log(`O JOGO DUROU ${totalHours} HORA(S) E ${totalMinute} MINUTO(S)`);
+  if (hoursInitial > hoursFinal) {
+    hours = 24 - hoursInitial + hoursFinal;
+  } else if (hoursInitial < hoursFinal) {
+    hours = 24 - (24 - hoursFinal + hoursInitial);
+  }
+  if (minuteInitial > minuteFinal) {
+    minutes = 60 + minuteFinal - minuteInitial;
+    if (hoursInitial == hoursFinal) {
+      hours = 24 + hours - 1;
+    } else {
+      hours = hours - 1;
+    }
+  } else {
+    minutes = minuteFinal - minuteInitial;
+  }
+  console.log(`O JOGO DUROU ${hours} HORA(S) E ${minutes} MINUTO(S)`);
 }
